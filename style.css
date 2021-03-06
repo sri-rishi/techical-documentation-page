@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    
+}
+
+/* navbar */
+#navbar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: #e2d7d7;
+}
+#nav-list{
+    list-style-type: none;
+    padding-inline-start: 0;
+    font-size: 20px;
+}
+
+.nav-items {
+    padding: 10px 0;
+}
+
+
+#nav-list a {
+    text-decoration: none;
+    color: #354233;
+}
+
+#nav-list a:hover {
+    color: #289728;
+}
+
+#nav-header{
+    font-size: 35px;
+}
+
+/* main  */
+#main-doc{
+    margin-left: 340px;
+    padding: 20px 40px;
+}
+
+#main-doc header{
+    font-size: 34px;
+}
+
+article{
+    padding: 10px;
+    color: #726464;
+}
+
+#main-doc ul{
+    margin-left: 40px;
+}
+
+code{
+    margin: 10px;
+    padding: 20px 450px 20px 20px;
+    background-color: #f7f7f7;
+    display: block;
+    line-height: 2;
+    border-radius: 5px;
+}
+
+#main-doc a{
+    text-decoration: none;
+}
